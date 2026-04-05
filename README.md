@@ -2,7 +2,7 @@
 
 A fully functional, gesture-controlled robotic car built with Arduino. This project uses a hand-mounted MPU6050 accelerometer to detect tilt, transmits the data wirelessly via NRF24L01 radio modules, and drives a 4-wheel robot car with proportional speed control. 
 
-An onboard OLED screen on the transmitter displays real-time telemetry, including direction, throttle percentage, and transmission status.
+An onboard OLED screen on the transmitter displays real-time telemetry, including direction, throttle percentage, and transmission status. 
 
 ## ✨ Features
 * **Intuitive Gesture Control:** Tilt your hand forward, backward, left, or right to drive the car.

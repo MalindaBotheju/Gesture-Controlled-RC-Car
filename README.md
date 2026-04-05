@@ -90,7 +90,7 @@ You will need to install the following libraries via the Arduino Library Manager
 
 ---
 
-## ⚠️ Common Troubleshooting (Lessons Learned)
+## ⚠️ Common Troubleshooting (Lessons Learned) 
 
 * **NRF24L01 FAILS to Initialize on Nano:** The Arduino Nano's onboard 3.3V pin is notoriously weak. If your radio fails to start, use a dedicated NRF24L01 Voltage Adapter board connected to the Nano's 5V pin, or solder a 10µF - 100µF capacitor across the 3.3V and GND pins.
 * **Motors Whine but Won't Spin:** DC motors require high current. Standard 9V "smoke detector" batteries will not work. Use three 3.7V batteries in series (11.1V total) to power the L298N. Also, ensure you tilt the transmitter steeply enough to push the PWM speed above 30%.

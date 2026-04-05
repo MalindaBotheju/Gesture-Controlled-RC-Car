@@ -75,7 +75,7 @@ An onboard OLED screen on the transmitter displays real-time telemetry, includin
 
 ## 💻 Software Setup
 
-### Required Libraries
+### Required Libraries 
 You will need to install the following libraries via the Arduino Library Manager (`Sketch` -> `Include Library` -> `Manage Libraries`):
 * `RF24` by TMRh20
 * `MPU6050` by Electronic Cats (or standard I2Cdev implementation)
